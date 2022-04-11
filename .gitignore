@@ -1,0 +1,6 @@
+# ignore postgresql volume folder
+./postgresql
+
+*.env*
+
+k8s/charts/*
