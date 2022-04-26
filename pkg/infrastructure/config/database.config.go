@@ -23,5 +23,5 @@ func GetDatabaseConfig() DatabaseConfig {
 }
 
 func (d DatabaseConfig) GetConnectionString() string {
-	return "postgres://" + d.User + ":" + d.Pass + "@" + d.Host + ":" + d.Port + "/" + d.Name
+	return "postgres://" + d.User + ":" + d.Pass + "@" + d.Host + ":" + d.Port
 }
